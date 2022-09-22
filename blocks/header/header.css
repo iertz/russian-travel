@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  min-width: 288px;
+  margin: 16px 16px 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    margin-top: 28px;
+    margin-right: 24px;
+    margin-left: 24px;  
+  }
+}
+
+/*Верхний margin остается неизменным и на бОльших экранах, увеличиваются левый и правый */
+@media screen and (min-width: 1024px) {
+  .header {
+    margin-right: 48px;
+    margin-left: 48px;  
+  }
+}
+
+/* на этом размере экрана увеличивается тольно нижний margin, боковые остаются, как на 1024px, а верхний, как на 768px */  
+@media screen and (min-width: 1280px) {
+  .header {
+    margin-bottom: 56px;
+  }
+}
