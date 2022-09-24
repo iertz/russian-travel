@@ -1,6 +1,8 @@
 .lead__map {
   width: 100%;
   position: absolute;
-  top: 12%;
-  left: 1%;
+  top: 14%; 
+  padding-left: 3%;
+  padding-right: 3%;
+  box-sizing: border-box;
 }
