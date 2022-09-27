@@ -1,0 +1,15 @@
+.place__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: underline;
+  color: #fff;
+  margin: 0 0 32px;
+}
+
+@media screen and (min-width:768px) {
+  .place__link {
+    margin: 0;
+  }
+}

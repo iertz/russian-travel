@@ -1,0 +1,30 @@
+.place {
+  margin-bottom: 50px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width:768px) {
+  .place {
+    display: grid;
+    grid-template-columns: 340px calc(100% - 340px - 28px);
+    grid-template-rows: min-content max-content;
+    gap: 48px 28px;
+    margin-bottom: 77px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .place {
+    gap: 48px 32px;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .place {
+    gap: 48px 40px;
+  }
+}
