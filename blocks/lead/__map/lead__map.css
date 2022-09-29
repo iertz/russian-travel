@@ -1,7 +1,7 @@
 .lead__map {
   width: 100%;
   position: absolute;
-  top: 14%; 
+  top: 14%;
   left: 0;
   /* не уверен, что через паддинги корректно, но зато работает :)*/
   padding-left: 3%;
