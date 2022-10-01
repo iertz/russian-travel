@@ -1,11 +1,11 @@
 .content {
-  width: 100%;
-  max-width: 928px;
-  margin: 0 auto;
+  max-width: 1184px;
+  box-sizing: border-box;
 }
 
-@media screen and (min-width:1280px) {
-  .content {
-    max-width: 984px;
-  }
-}   
+  @media screen and (min-width:1024px) {
+    .content {
+      margin: 0 auto;
+    }
+  }    
+

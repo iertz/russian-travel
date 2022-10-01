@@ -14,3 +14,12 @@
     line-height: 1.07;
   }
 }
+
+@media screen and (min-width:1024px) {
+  .intro__title {
+    max-width: 690px;
+  }
+}
+/*max-width: 720px;
+
+

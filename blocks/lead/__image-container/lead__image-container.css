@@ -1,6 +1,5 @@
 .lead__image-container {
   width: 100%;
-  position: relative;
 }
 
 @media screen and (min-width:1024px) {
