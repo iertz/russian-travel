@@ -6,4 +6,4 @@
 
 Технологии: HTML5 & CSS3 
 
-Сайт в пбуличном доступе! Посмотреть можно по ссылке: https://iertz.github.io/russian-travel
+Сайт в публичном доступе! Посмотреть можно по ссылке: https://iertz.github.io/russian-travel
