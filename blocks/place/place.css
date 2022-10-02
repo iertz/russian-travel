@@ -11,7 +11,6 @@
 @media screen and (min-width:768px) {
   .place {
     display: grid;
-    /* вероятно, что тут проблема в ширине колонок, особенно, второй*/
     grid-template-columns: 340px calc(100% - 340px - 28px);
     grid-template-rows: min-content max-content;
     gap: 48px 28px;
@@ -21,6 +20,7 @@
 
 @media screen and (min-width:1024px) {
   .place {
+    grid-template-columns: 440px calc(100% - 440px - 32px);
     max-width: 928px;
     gap: 48px 32px;
     margin-bottom: 80px;
@@ -29,6 +29,7 @@
 
 @media screen and (min-width:1280px) {
   .place {
+    grid-template-columns: 460px calc(100% - 460px - 40px);
     max-width: 984px;
     gap: 48px 40px;
   }

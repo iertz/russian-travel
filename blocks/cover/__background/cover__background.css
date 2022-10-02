@@ -33,13 +33,13 @@
 
 @media screen and (min-width:1024px) {
   .cover__background {
-    height: calc(1023px/1.6);
+    min-height: calc(1023px/1.6);
   }
 }
 
 @media screen and (min-width:1280px) {
   .cover__background {
-    height: calc(1184px/1.6);
+    min-height: calc(1184px/1.6);
   }
 }
 
